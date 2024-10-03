@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiDemo.StackLayoutDemo"
+             Title="StackLayoutDemo">
+    <VerticalStackLayout>
+        
+        <HorizontalStackLayout Margin="20"
+                         VerticalOptions="Start">
+            <Label Text="Name"></Label>
+            <Entry WidthRequest="150" HeightRequest="30"></Entry>
+            <Label Text="Enter the name" TextColor="Red"></Label>
+        </HorizontalStackLayout>
+        <HorizontalStackLayout Margin="20"
+                             VerticalOptions="Start">
+            <Label Text="Name"></Label>
+            <Entry WidthRequest="150" HeightRequest="30"></Entry>
+            <Label Text="Enter the age" TextColor="Red"></Label>
+        </HorizontalStackLayout>
+
+    </VerticalStackLayout>
+    
+</ContentPage>
